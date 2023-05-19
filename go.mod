@@ -1,4 +1,4 @@
-module data2image
+module github.com/Rehtt/data2image
 
 go 1.20
 
