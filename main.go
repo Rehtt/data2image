@@ -33,7 +33,7 @@ func main() {
 		if err := os.MkdirAll(output, 0755); err != nil {
 			panic(err)
 		}
-		if err := image2file(input, output); err != nil {
+		if err := file2image(input, output); err != nil {
 			panic(err)
 		}
 	}
